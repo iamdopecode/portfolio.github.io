@@ -1,0 +1,147 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url(/css/images/dopecode1.JPG) ;
+    height: 97vh;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    
+    
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5em;
+    position: absolute;
+    left: 410px;
+    top: 390px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 13px;
+    background-color: #ffa500;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font: 200;
+    position: absolute;
+    top: 550px;
+    left: 580px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    border: 3px solid #ffa500;
+    transition: background-color 0.7s;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color : #ffa500
+}
+
+.imglogo {
+    height: 50px;
+    position: relative;
+    left: 20px;
+    top: 20px
+}
+
+.nav-menu {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+}
+
+.nav-links {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 2.2em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 4px transparent solid ;
+    transition: border-bottom 0.5s;
+    
+}
+
+.nav-links:hover {
+    border-bottom: 4px #ffa500 solid;
+}
+
+
+
+.logo {
+    display: inline-block;
+    width: 10%;
+}
+
+
+.linkdin {
+    height: 50px;
+    position: absolute;
+    top: 557px;
+    left :450px;
+}
+
+.linkdin:hover {
+    background-color: #ffa500;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.instagram {
+    height: 50px;
+    position: absolute;
+    top: 560px;
+    left :550px;
+}
+
+.instagram:hover {
+    background-color: #ffa500;
+    padding: 15px;
+    border-radius: 20px;    
+    
+}
+
+.github {
+    height: 50px;
+    position: absolute;
+    top: 560px;
+    left :650px;
+    
+}
+
+.github:hover {
+    background-color: #ffa500;
+    padding: 15px;
+    border-radius: 20px; 
+}
+
+.facebook {
+    height: 50px;
+    position: absolute;
+    top: 560px;
+    left :750px;   
+}
+
+.facebook:hover {
+    background-color: #ffa500;
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+
+.authordp {
+    height: 100px;
+}
